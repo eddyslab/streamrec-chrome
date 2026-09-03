@@ -10,6 +10,9 @@ account credentials, cookies, private URLs, or other personal information.
 
 Security or privacy inquiries can be sent to `jwkim@eddyslab.com`.
 
+For Native App downloads and installation help, see the
+[StreamMerger Native App guide](NATIVE_APP.md).
+
 ## 지원
 
 질문, 오류 또는 호환성 문제는 공개 이슈 페이지에 등록해 주세요.
@@ -22,3 +25,4 @@ StreamRec 버전, Chrome 버전, 운영체제, 재현 절차와 민감하지 않
 
 보안·개인정보 관련 문의: `jwkim@eddyslab.com`
 
+Native App 다운로드와 설치 방법은 [StreamMerger Native App 안내](NATIVE_APP.md)를 확인해 주세요.
