@@ -2,7 +2,8 @@
 
 StreamMerger is an optional macOS companion app for StreamRec. It uses FFmpeg locally to
 merge recording segments and reports conversion progress to the extension. Recorded media
-is not uploaded to a StreamRec server.
+is not uploaded to a StreamRec server. Depending on the recording and Mac, native merging
+can be more than twice as fast as browser-based conversion. Windows support is planned.
 
 ## Download
 
@@ -31,7 +32,8 @@ connected after StreamMerger is running.
 
 StreamMerger는 StreamRec의 선택적 macOS 보조 앱입니다. FFmpeg을 사용해 녹화 세그먼트를
 로컬에서 병합하고 변환 진행 상태를 확장에 전달합니다. 녹화 미디어를 StreamRec 서버로
-업로드하지 않습니다.
+업로드하지 않습니다. 녹화 내용과 Mac 환경에 따라 브라우저 변환보다 2배 이상 빠른
+병합 속도를 제공할 수 있습니다. 현재 macOS만 지원하며 Windows는 추후 지원할 예정입니다.
 
 ## 다운로드
 

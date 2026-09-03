@@ -4,7 +4,14 @@ StreamRec records supported MediaSource (MSE) web streams directly in Chrome wit
 capture and saves recordings locally on the user's device.
 
 - [Install StreamRec from the Chrome Web Store](https://chromewebstore.google.com/detail/streamrec/capiflgkfohikdadgmhknjafmjehembc)
-- [Download the optional StreamMerger Native App](#download-the-optional-native-app)
+- **Optional Native App — macOS only:** StreamMerger can make segment merging more than
+  twice as fast as browser-based conversion, depending on the recording and Mac. StreamRec
+  works without it. Windows support is planned.
+  [Download StreamMerger for macOS](#download-the-optional-native-app)
+- **선택 기능 Native App — macOS 전용:** StreamMerger는 녹화 내용과 Mac 환경에 따라
+  세그먼트 병합 속도를 브라우저 변환 대비 2배 이상 높일 수 있습니다. 설치하지
+  않아도 StreamRec은 동작하며, Windows는 추후 지원할 예정입니다.
+  [macOS용 StreamMerger 다운로드](#native-app-다운로드)
 
 ## Features
 
@@ -26,7 +33,9 @@ bypass DRM, subscription controls, or other access restrictions.
 ## Download the optional Native App
 
 StreamMerger improves local merging of recording segments with FFmpeg. Browser-based
-conversion remains available when StreamMerger is not installed or connected.
+conversion remains available when StreamMerger is not installed or connected. StreamMerger
+is currently available only for macOS; Windows support is planned. Depending on the recording
+and Mac, native merging can be more than twice as fast as browser-based conversion.
 
 Choose the installer for your Mac:
 
@@ -42,6 +51,8 @@ installed for Firefox, you do not need to install a second copy for Chrome. See 
 
 StreamMerger는 FFmpeg을 사용해 녹화 세그먼트를 로컬에서 병합하는 선택 기능입니다.
 StreamMerger가 설치되어 있지 않거나 연결되지 않은 경우에는 브라우저 병합을 사용합니다.
+현재 macOS만 지원하며 Windows는 추후 지원할 예정입니다. 녹화 내용과 Mac 환경에 따라
+네이티브 병합은 브라우저 변환보다 2배 이상 빠를 수 있습니다.
 
 - **Apple Silicon Mac:** [StreamMerger v1.4.16 arm64 다운로드](https://github.com/eddyslab/streamrec/releases/download/v1.4.16/StreamMerger-v1.4.16-arm64.dmg)
 - **Intel Mac:** [StreamMerger v1.4.16 x86_64 다운로드](https://github.com/eddyslab/streamrec/releases/download/v1.4.16/StreamMerger-v1.4.16-x86_64.dmg)
