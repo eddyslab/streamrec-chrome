@@ -7,17 +7,24 @@ can be more than twice as fast as browser-based conversion. Windows support is p
 
 ## Download
 
-- **Apple Silicon (M1/M2/M3/M4 and later):** [StreamMerger-v1.4.16-arm64.dmg](https://github.com/eddyslab/streamrec/releases/download/v1.4.16/StreamMerger-v1.4.16-arm64.dmg)
-- **Intel Mac:** [StreamMerger-v1.4.16-x86_64.dmg](https://github.com/eddyslab/streamrec/releases/download/v1.4.16/StreamMerger-v1.4.16-x86_64.dmg)
-- [Release notes and SHA-256 checksums](https://github.com/eddyslab/streamrec/releases/tag/v1.4.16)
+- **Apple Silicon (M1/M2/M3/M4 and later):** [StreamMerger-v1.6.18-arm64.dmg](https://github.com/eddyslab/streamrec-chrome/releases/download/v1.6.18/StreamMerger-v1.6.18-arm64.dmg)
+- **Intel Mac:** [StreamMerger-v1.6.18-x86_64.dmg](https://github.com/eddyslab/streamrec-chrome/releases/download/v1.6.18/StreamMerger-v1.6.18-x86_64.dmg)
+- [Release notes and SHA-256 checksums](https://github.com/eddyslab/streamrec-chrome/releases/tag/v1.6.18)
 
 ## Install or upgrade
 
+This optional installation is intended for users comfortable with Terminal.
+
 1. Download and open the DMG for your Mac.
-2. Double-click **Install StreamMerger.command**.
-3. Enter your macOS administrator password if requested.
+2. Open Terminal and run:
+
+   ```bash
+   bash /Volumes/StreamMerger/setup.sh
+   ```
+
+3. Wait until Terminal reports that StreamMerger is ready.
 4. Close and reopen the StreamRec popup.
-5. Confirm that StreamMerger appears in the macOS menu bar and is detected by StreamRec.
+5. Confirm that the extension shows **Native App** as connected.
 
 Installing this version replaces an existing `/Applications/StreamMerger.app` and registers
 the Native Messaging host for both Chrome and Firefox. Only one installation is needed even
@@ -37,17 +44,24 @@ StreamMerger는 StreamRec의 선택적 macOS 보조 앱입니다. FFmpeg을 사�
 
 ## 다운로드
 
-- **Apple Silicon Mac:** [StreamMerger-v1.4.16-arm64.dmg](https://github.com/eddyslab/streamrec/releases/download/v1.4.16/StreamMerger-v1.4.16-arm64.dmg)
-- **Intel Mac:** [StreamMerger-v1.4.16-x86_64.dmg](https://github.com/eddyslab/streamrec/releases/download/v1.4.16/StreamMerger-v1.4.16-x86_64.dmg)
-- [릴리스 안내 및 SHA-256 체크섬](https://github.com/eddyslab/streamrec/releases/tag/v1.4.16)
+- **Apple Silicon Mac:** [StreamMerger-v1.6.18-arm64.dmg](https://github.com/eddyslab/streamrec-chrome/releases/download/v1.6.18/StreamMerger-v1.6.18-arm64.dmg)
+- **Intel Mac:** [StreamMerger-v1.6.18-x86_64.dmg](https://github.com/eddyslab/streamrec-chrome/releases/download/v1.6.18/StreamMerger-v1.6.18-x86_64.dmg)
+- [릴리스 안내 및 SHA-256 체크섬](https://github.com/eddyslab/streamrec-chrome/releases/tag/v1.6.18)
 
 ## 설치 또는 업그레이드
 
+이 선택적 설치 기능은 Terminal 사용에 익숙한 사용자를 위한 보조 기능입니다.
+
 1. Mac 아키텍처에 맞는 DMG를 다운로드하여 엽니다.
-2. **Install StreamMerger.command**를 더블 클릭합니다.
-3. 요청되면 macOS 관리자 비밀번호를 입력합니다.
+2. Terminal을 열고 다음 명령을 실행합니다.
+
+   ```bash
+   bash /Volumes/StreamMerger/setup.sh
+   ```
+
+3. Terminal에 StreamMerger 연결 준비가 확인됐다는 메시지가 나올 때까지 기다립니다.
 4. StreamRec 팝업을 닫았다가 다시 엽니다.
-5. macOS 메뉴 막대에 StreamMerger가 표시되고 확장에서 연결된 상태인지 확인합니다.
+5. 확장 화면에서 **Native App**이 연결 상태로 표시되는지 확인합니다.
 
 이 버전을 설치하면 기존 `/Applications/StreamMerger.app`이 교체되고 Chrome과 Firefox용
 Native Messaging Host가 모두 등록됩니다. 두 브라우저 확장을 모두 사용해도 한 번만 설치하면

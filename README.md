@@ -39,9 +39,9 @@ and Mac, native merging can be more than twice as fast as browser-based conversi
 
 Choose the installer for your Mac:
 
-- **Apple Silicon (M1/M2/M3/M4 and later):** [Download StreamMerger v1.4.16 for arm64](https://github.com/eddyslab/streamrec/releases/download/v1.4.16/StreamMerger-v1.4.16-arm64.dmg)
-- **Intel Mac:** [Download StreamMerger v1.4.16 for x86_64](https://github.com/eddyslab/streamrec/releases/download/v1.4.16/StreamMerger-v1.4.16-x86_64.dmg)
-- [Release notes and checksums](https://github.com/eddyslab/streamrec/releases/tag/v1.4.16)
+- **Apple Silicon (M1/M2/M3/M4 and later):** [Download StreamMerger v1.6.18 for arm64](https://github.com/eddyslab/streamrec-chrome/releases/download/v1.6.18/StreamMerger-v1.6.18-arm64.dmg)
+- **Intel Mac:** [Download StreamMerger v1.6.18 for x86_64](https://github.com/eddyslab/streamrec-chrome/releases/download/v1.6.18/StreamMerger-v1.6.18-x86_64.dmg)
+- [Release notes and checksums](https://github.com/eddyslab/streamrec-chrome/releases/tag/v1.6.18)
 
 StreamMerger is shared by the Chrome and Firefox versions of StreamRec. If it is already
 installed for Firefox, you do not need to install a second copy for Chrome. See the
@@ -54,9 +54,9 @@ StreamMerger가 설치되어 있지 않거나 연결되지 않은 경우에는 �
 현재 macOS만 지원하며 Windows는 추후 지원할 예정입니다. 녹화 내용과 Mac 환경에 따라
 네이티브 병합은 브라우저 변환보다 2배 이상 빠를 수 있습니다.
 
-- **Apple Silicon Mac:** [StreamMerger v1.4.16 arm64 다운로드](https://github.com/eddyslab/streamrec/releases/download/v1.4.16/StreamMerger-v1.4.16-arm64.dmg)
-- **Intel Mac:** [StreamMerger v1.4.16 x86_64 다운로드](https://github.com/eddyslab/streamrec/releases/download/v1.4.16/StreamMerger-v1.4.16-x86_64.dmg)
-- [릴리스 안내 및 체크섬](https://github.com/eddyslab/streamrec/releases/tag/v1.4.16)
+- **Apple Silicon Mac:** [StreamMerger v1.6.18 arm64 다운로드](https://github.com/eddyslab/streamrec-chrome/releases/download/v1.6.18/StreamMerger-v1.6.18-arm64.dmg)
+- **Intel Mac:** [StreamMerger v1.6.18 x86_64 다운로드](https://github.com/eddyslab/streamrec-chrome/releases/download/v1.6.18/StreamMerger-v1.6.18-x86_64.dmg)
+- [릴리스 안내 및 체크섬](https://github.com/eddyslab/streamrec-chrome/releases/tag/v1.6.18)
 
 Chrome과 Firefox는 하나의 StreamMerger를 공유합니다. Firefox용으로 이미 설치했다면
 Chrome용으로 다시 설치할 필요가 없습니다. 설치 방법은 [Native App 설치 안내](NATIVE_APP.md)를
